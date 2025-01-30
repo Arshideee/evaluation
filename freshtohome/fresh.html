@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshToHome - Order Fresh Fish, Chicken and Mutton Online.</title>
+    <link rel="icon" href="https://static.freshtohome.com/media/favicon/default/logo-3.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fresh.css">
+</head>
+
+<body>
+    <header class="w-100">
+
+        <div class="top-bar bg-success text-white py-1 w-100 d-nn">
+            <div class=" container-fluid d-flex justify-content-between">
+                <span>📞 1800-313-3302 | <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                    </svg> customercare@freshtohome.com</span>
+                <div class="d-flex topbar-end">
+                    <p><a href="#">Certificates</a><span>|</span></p>
+                    <p><a href="#">Why us</a><span>|</span></p>
+                    <p><a href="#">Newsroom</a><span>|</span></p>
+                    <p><a href="#">Sell-With-Us</a></p>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                            class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path
+                                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg> kottakkal
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container-fluid d-flex justify-content-between main-header py-3 shadow-sm">
+
+            <div class="d-flex w-50">
+                <div>
+                    <a href="#" class="logo">
+                        <img src="https://static.freshtohome.com/images/logo/2021/logo-medium.png" alt="FreshToHome"
+                            height="40">
+                    </a>
+
+                </div>
+
+
+                <div class="input-group  position-relative input">
+                    <input class="w-100" type="text" placeholder="Search from our 100% fresh products">
+                    <div class="position-absolute srch-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="user-options">
+                <a href="#" class="text-dark me-3 fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                    </svg></a>
+                <a href="#" class="text-dark fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                        <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                    </svg></a>
+            </div>
+
+        </div> -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand logo" href="#"> <img
+                        src="https://static.freshtohome.com/images/logo/2021/logo-medium.png" alt="FreshToHome"
+                        height="40"></a>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
+
+                    <div class="input-group  position-relative input w-50">
+                        <input class="w-100" type="text" placeholder="Search from our 100% fresh products">
+                        <div class="position-absolute srch-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="user-options">
+                        <a href="#" class="text-dark me-3 fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                            </svg></a>
+                        <a href="#" class="text-dark fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                            </svg></a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <hr>
+
+
+        <!-- Menu Bar -->
+
+        <div class="menu-br  d-flex justify-content-center ">
+            <div class="p-2">
+                <a href="#">Fish & Seafood</a>
+            </div>
+            <div class="p-2">
+                <a href="#">Poultry</a>
+
+            </div>
+            <div class="p-2">
+                <a href="#">Mutton</a>
+            </div>
+            <div class="p-2">
+
+                <a href="#">Steaks & Fillet</a>
+            </div>
+            <div class="p-2">
+                <a href="#">Ready To Cook</a>
+            </div>
+        </div>
+        <hr>
+
+    </header>
+    <div class="carous m-4">
+        <div class="crs">
+            <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://cdn.freshtohome.com/media/banner/8f8ae78193598021.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.freshtohome.com/media/banner/36bfb5121ea49ecf.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.freshtohome.com/media/banner/66f33cc8df4d7309.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper m-4">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="area-1 a-11 w-100 d-flex gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>
+                    <a href="#">
+                        <p>Become a VIP Member and ENJOY UNLIMITED FREE HOME DELIVERY, exclusive deals and more!
+                            <span>JOIN NOW </span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="area-1 a-11 w-100 d-flex gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-bicycle" viewBox="0 0 16 16">
+                        <path
+                            d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5m1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139zM8 9.057 9.598 6.5H6.402zM4.937 9.5a2 2 0 0 0-.487-.877l-.548.877zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53z" />
+                    </svg>
+                    <a href="#">
+                        <p>Earliest available delivery slot in most areas is Saturday, 16th November</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="area-1 w-100 d-flex gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-phone" viewBox="0 0 16 16">
+                        <path
+                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                    </svg>
+                    <a href="#">
+                        <p>Download our Mobile App
+                            <span> iOS </span>or <span>ANDROID</span>.
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="area2 mt-5">
+            <div class="mb-5 d-flex justify-content-center">
+                <h3>
+                    Daily Deal
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <div class="card ">
+                            <div class="card" style="width: 100%;">
+                                <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/l/a/lababdar-chicken-tile-1.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">DIY Lababdar Gravy (200g Pack) <br>
+
+                                        <br>
+                                        <del> ₹199.00</del><span class="price">₹175.00 /pack</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <div class="card ">
+                            <div class="card" style="width: 100%;">
+                                <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/a/tangy_chicken_ghee_roast_1_.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Spicy Chettinad Chicken (250g Pack) <br>
+                                        <br>
+
+                                        <del> ₹225.00</del><span class="price">₹219.00 /pack</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <div class="card ">
+                            <div class="card" style="width: 100%;">
+                                <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chettinad_chicken.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">DIY Lababdar Gravy (200g Pack) <br>
+                                        <br>
+                                        <del> ₹249.00</del><span class="price">₹219.00 /pack</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="#">
+                        <div class="card ">
+                            <div class="card" style="width: 100%;">
+                                <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken_pepper_salami.jpeg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Chicken Pepper Salami (200g) <br>
+                                        <br>
+                                        <del> ₹349.00</del><span class="price">₹229.00 /pack</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="area3 p-4 mt-4">
+        <div class="mb-5 pt-4 d-flex justify-content-center">
+            <h3>
+                Flash Sale
+            </h3>
+        </div>
+        <div class="row g-1">
+            <div class="col-6 col-md-3">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/m/a/mackeral_10-14c_whole.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Mackerel / Ayala / Bangda / Aylai (10 to 14 Count/kg) <br>
+                                    <br>
+                                    <del>₹150.00</del><span class="price">₹109.00 /500g</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken-baasa_boneless_cubes.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Combo: (500g Premium Chicken Skinless Curry Cut + 200g Fresh <br>
+                                    <br>
+                                    <del>₹350.00</del><span class="price">259.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/a/sardine.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Yellow Fin Tuna / Kera <br>
+                                    <br>
+                                    <br>
+                                    <del>₹270.00</del><span class="price">₹199.00 /500g</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/k/a/kazhanthan_80_4.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Marine Milk Fish / Poomeen (Large) <br>
+                                    <br>
+                                    <br>
+                                    <del>₹270.00</del><span class="price">₹529.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken_curry_cut_2kg_3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Special Pack: Premium Tender and Antibiotic-residue-free Skinless
+                                    <br>
+                                    <br>
+
+                                    <del>₹720.00</del><span class="price">₹529.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/e/seer_steak_chicken_prawns_1_3_1_1_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Marine Milk Fish / Poomeen (Large) <br>
+                                    <br>
+                                    <br>
+                                    <del>₹1,430.00</del><span class="price">₹1,049.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="area4 m-4">
+        <div class="mb-5 pt-4 d-flex justify-content-center">
+            <h3>
+                Shop by Category
+            </h3>
+        </div>
+        <div class="round-img">
+            <ul>
+                <li>
+
+                    <a href="#"> <img
+                            src="https://static.freshtohome.com/images/mobile/home/categories/new-ui/batter.png" alt="">
+                        <div>
+                            Vegetarian Products
+
+                        </div>
+                    </a>
+
+                </li>
+                <li>
+
+                    <a href="#"> <img
+                            src="https://static.freshtohome.com/images/mobile/home/categories/new-ui/chicken.png"
+                            alt="">
+                        <div>
+                            Poultry
+
+                        </div>
+                    </a>
+
+                </li>
+                <li>
+
+                    <a href="#"> <img
+                            src="https://static.freshtohome.com/images/mobile/home/categories/new-ui/combo.png" alt="">
+                        <div>
+                            Combo Packs
+
+                        </div>
+                    </a>
+
+                </li>
+                <li>
+
+                    <a href="#"> <img
+                            src="https://static.freshtohome.com/images/mobile/home/categories/new-ui/fillet.png" alt="">
+                        <div>
+                            Steaks & Fillets
+
+                        </div>
+                    </a>
+
+                </li>
+                <li>
+
+                    <a href="#"> <img
+                            src="https://static.freshtohome.com/images/mobile/home/categories/new-ui/mutton.png" alt="">
+                        <div>
+                            Mutton - Goat & Lamb
+
+                        </div>
+                    </a>
+
+                </li>
+                <li>
+
+                    <a href="#"> <img src="https://static.freshtohome.com/images/mobile/home/categories/new-ui/rtc.png"
+                            alt="">
+                        <div>
+                            Ready to Cook
+
+                        </div>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="area5 m-4">
+        <div class="mb-5 pt-4 d-flex justify-content-center">
+            <h3>
+                Deal of the day - Kerala
+            </h3>
+        </div>
+        <div class="row g-1">
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/e/seer_steak_chicken_prawns_1_3_1_1_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Marine Milk Fish / Poomeen (Large) <br>
+                                    <br>
+
+                                    <del>₹1,430.00</del><span class="price">₹1,049.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/m/a/mackeral_10-14c_whole.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Mackerel / Ayala / Bangda / Aylai (10 to 14 Count/kg) <br>
+                                    <br>
+                                    <del>₹150.00</del><span class="price">₹109.00 /500g</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken-baasa_boneless_cubes.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Combo: (500g Premium Chicken Skinless Curry Cut + 200g Fresh <br>
+                                    <br>
+                                    <del>₹350.00</del><span class="price">259.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/a/sardine.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Yellow Fin Tuna / Kera <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <del>₹270.00</del><span class="price">₹199.00 /500g</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/k/a/kazhanthan_80_4.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Marine Milk Fish / Poomeen (Large) <br>
+                                    <br>
+                                    <br>
+                                    <del>₹270.00</del><span class="price">₹529.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken_curry_cut_2kg_3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Special Pack: Premium Tender and Antibiotic-residue-free Skinless
+                                    <br>
+                                    <br>
+
+                                    <del>₹720.00</del><span class="price">₹529.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/d/o/dosa-spinach-batter.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Palak Idly / Dosa Batter - 1kg Pack
+                                    <br>
+                                    <br>
+
+                                    <del>135.00</del><span class="price">₹49.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/o/tomato-chutney.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Palak Idly / Dosa Batter - 1kg Pack
+                                    <br>
+                                    <br>
+
+                                    <del>90.00</del><span class="price">₹49.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/m/i/mint-chutney.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Palak Idly / Dosa Batter - 1kg Pack
+                                    <br>
+                                    <br>
+
+                                    <del>90.00</del><span class="price">₹49.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/f/t/fth-dosa-classic.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Palak Idly / Dosa Batter - 1kg Pack
+                                    <br>
+                                    <br>
+
+                                    <del>90.00</del><span class="price">₹49.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/d/o/dosa-beetroot-batter.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Palak Idly / Dosa Batter - 1kg Pack
+                                    <br>
+                                    <br>
+
+                                    <del>90.00</del><span class="price">₹49.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#">
+                    <div class="card ">
+                        <div class="card" style="width: 100%;">
+                            <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chettinad_chicken.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Palak Idly / Dosa Batter - 1kg Pack
+                                    <br>
+                                    <br>
+
+                                    <del>90.00</del><span class="price">₹49.00 /pack</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="area6 m-4 pt-4">
+
+        <p>FreshToHome: Your Ultimate Destination for Fresh Meat and Online Meat Delivery</p>
+        <small>In the age of digital convenience, the way we shop for groceries and food has evolved significantly. One
+            of the most significant advancements in this regard is the ability to order fresh meat online. FreshToHome
+            has emerged as a game-changer in the world of online meat delivery, offering not only convenience but also
+            quality that's second to none. Let’s delve into why FreshToHome is the top choice for those seeking fresh
+            meat and online meat delivery.</small>
+        <br>
+        <span>Fresh Meat: A Cut Above the Rest</span>
+        <br>
+        <small>When it comes to fresh meat, quality is non-negotiable. FreshToHome understands this better than anyone
+            else. Our commitment to delivering the freshest meat possible is evident in every aspect of our service.
+            Whether you're looking for succulent chicken, tender mutton, or the freshest fish, FreshToHome has got you
+            covered. Any specific or particular cut you want for any recipe, we got it all.</small>
+        <br>
+        <span>
+            The Heart of Our Business: Fresh Meat & Seafood
+        </span>
+        <br>
+        <small>
+            At FreshToHome, we believe that the heart of a delicious meal is fresh, high-quality meat. That's why we
+            source our meat from dedicated farmers and small boat fishermen who adhere to the highest standards of
+            hygiene and quality. Our rigorous quality checks ensure that you receive nothing but the best.
+        </small>
+        <br>
+        <span>
+            Online Meat Delivery: Convenience at Your Doorstep
+        </span>
+        <br>
+        <small>Gone are the days when you had to make a trip to the local butcher or fish market. With FreshToHome's
+            online meat delivery service, you can order meat online from the comfort of your home. Whether you're a busy
+            professional, a homemaker, or anyone in between, our user-friendly website and app make ordering meat a
+            breeze.</small>
+        <br>
+        <span>Order Meat Online: Simple and Seamless</span>
+        <br>
+        <small>Ordering meat online from FreshToHome is as easy as 1-2-3. Simply visit our website or download our app,
+            select your preferred cuts of meat, and proceed to checkout. Our secure payment options and reliable
+            delivery ensure that your fresh meat arrives at your doorstep promptly.</small>
+        <br>
+        <span>Meat Delivery: Prompt and Punctual</span>
+        <br>
+        <small>When you choose FreshToHome for meat delivery, you can expect punctuality. We understand the importance
+            of receiving your order on time, and we take pride in our timely deliveries. Say goodbye to last-minute
+            grocery store runs – FreshToHome has got your back.</small>
+        <br>
+        <span>Online Fresh Meat: For All Your Needs</span>
+        <br>
+        <small>FreshToHome maintains a wide inventory of fresh meat, ensuring that you can find your favourite cuts
+            whenever you need them. Whether it's chicken, mutton, or fish, we've got your cravings covered.</small>
+        <br>
+        <span>Explore Our Range: Online Mutton, Online Chicken, and More</span>
+        <br>
+        <small>
+            FreshToHome isn't just about fresh meat and online meat delivery. We offer a diverse range of products to
+            meet your culinary needs. Explore our selection of:
+            <br>
+            - Online Mutton: Our mutton is tender, juicy, and packed with flavour. Perfect for your favourite mutton
+            recipes.
+            <br>
+            - Online Fish Delivery: From popular choices like baasa, sardines and tilapia to exotic options, we deliver
+            the freshest fish to your doorstep.
+            <br>
+            - Ready to Cook: Short on time? Try our ready-to-cook options for a quick and delicious meal solution.
+            <br>
+            In conclusion, FreshToHome is your ultimate destination for fresh meat and online meat delivery. With our
+            commitment to quality, convenience, and prompt service, we aim to elevate your culinary experience. Say
+            goodbye to the hassle of traditional meat shopping and embrace the future of fresh meat with FreshToHome.
+            Order meat online today and savour the difference!
+            <br>
+            So why wait? Join the lakhs of satisfied customers who trust FreshToHome for their fresh meat needs. Order
+            now and experience the freshness for yourself!
+            <br>
+            Remember, when it comes to fresh meat and online meat delivery, FreshToHome is the name you can trust. Place
+            your order today, and taste the difference!
+        </small>
+    </div>
+    <div class="area7 m-4">
+        <div class="row">
+            <div class="col-12 col-md-9 ">
+                <div>
+                    <img class="w-100"
+                        src="https://static.freshtohome.com/antibioticfree/certificate-banner-web-2021.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-3 ">
+                <div>
+                    <img class="w-100" src="https://static.freshtohome.com/images/web/download-app-banner-lollypop.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="area8 m-4">
+        <div class="row">
+            <div class="ftr-logo col-12 col-lg-3">
+                <img src="https://static.freshtohome.com/images/logo/2021/logo-medium.png" alt="">
+                <div>
+                    <small>Freshtohome Foods Private Limited No. 1, 2nd Floor, Carlton Towers, Old Airport Road,
+                        Bangalore - 560008</small>
+                </div>
+            </div>
+            <div class="ftr-col-mdl col-12 col-lg-6">
+                <div class="d-flex">
+                    <div class="ps-3">
+                        <small>FAQ</small>
+                    </div>
+                    <div class="ftr-list">
+                        <ul>
+                            <li>
+                                <a href="#"> News room</a>
+                            </li>
+                            <li>
+                                <a href="#"> Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Didn't find your product?</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#"> Refund Policy</a>
+                            </li>
+                            <li>
+                                <a href="#"> Sellers</a>
+                            </li>
+                            <li>
+                                <a href="#"> Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="app-str">
+                        <a href="#"><img
+                                src="https://www.freshtohome.com/skin/frontend/default/theme659/images/appstore_badge.png"
+                                alt=""></a>
+                    </div>
+                    <div class="play-str">
+                        <a href="#"><img
+                                src="https://www.freshtohome.com/skin/frontend/default/theme659/images/playstore_badge.png"
+                                alt=""></a>
+                    </div>
+
+                </div>
+                <div class="d-flex justify-content-center ftr-col-2-txt">
+                    Order your daily Fish, Poultry and Mutton. Get it delivered at your door steps.
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-3 ftrcol2 text-center">
+                <div>
+                    Contact Us
+                </div>
+                <div>
+                    1800-313-3302 <br>
+                    customercare@freshtohome.com
+                </div>
+                <div class="mt-3">
+                    <div>
+                        Follow Us
+                    </div>
+                    <div class="d-flex justify-content-center gap-3">
+                        <div>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg></a>
+                        </div>
+                        <div>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                                </svg></a>
+                        </div>
+                        <div>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg></a>
+                        </div>
+                        <div>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="m-4">
+        <div class="row">
+            <div class="col">
+                <h4>FreshToHome - Order Fresh Fish, Chicken and Mutton Online.
+                </h4>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                    <h6>Marine Fish</h6> <br>
+                    <small> Anchovy / Kozhuva / Natholi | Barracuda / Cheelavu | Pomfret / Avoli | Threadfin Bream /
+                        Kilimeen /
+                        Goat Fish | Butter Fish / Punnarameen | Cobia / Motha | Emperor / Eari | Garfish / Kola | Grey
+                        Mullet /
+                        Thirutha | Grouper / Reef Cods / Kalava | Mackerel / Ayala | Salmon | Lady Fish / Silver whiting
+                        / Kane
+                        | Silver Biddy / Pranjil | Long Whiskered / Catfish | Mahi Mahi | Milk Fish / Poomeen | Pony
+                        Fish /
+                        Mullan | Red Snapper / Chempalli / Rane | Reef Cods / Kalava | Ribbon Fish / Vaala | Sail Fish /
+                        Ola
+                        Meen | Sardine / Mathy / Mathi | Seer Fish / Neymeen / Surumai | Shark | Shrimp Scad / Vatta
+                        Paara |
+                        Pomfret / Avoli / Pabda | Snapper | Sole Fish / Manthal / Repti | Sword Fish | Trevally / Vatta
+                        | Tuna |
+                        White Sardine / Veloori | Jobfish | Stingray / Thirandi | Eel / Mananjil | Kallanki | Queen Fish
+                        |
+                        Silver Belly / Thaali Mullen </small> </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                    <h6>Shell Fish</h6> <small>Shrimp | Clam / Kakka | Cuttle Fish | Green Mussel Meat / Kallummekkaya |
+                        Lobster
+                        | Prawns / Venami | Octopus | Oyster Meat | Sand Lobster | Scampi / Attukonchu / Jinga / Chingdi
+                        | Crab
+                        | Mud Crab | Squid / Koonthal |</small></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                    <h6>Freshwater Fish</h6>
+                    <small> Baasa / Pangasius | Catla / Katla | Freshwater Milk Fish / Kayal Poomeen | Goby / Poolan /
+                        Bele Mach
+                        | Mrigal / Kanni Meen | Mullet / Kanambu / Parshe Maach | Pearl Spot / Karimeen / Koral | Rohu |
+                        Tilapia
+                        | Catfish / Manjakoori / Tengra Mach | Barramundi / Bhetki / Asian Seabass </small> </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h6>Poultry</h6>
+                    <small> Chicken | Sasso Chicken | Chicken Lollipop | Chicken Breast | Chicken Drumsticks | Duck |
+                        Kuttandan Duck | Vigova Duck | Duck Egg </small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                    <h6>Meat</h6>
+                    <small>Mutton | Goat | Lamb | Lamb Chops | Goat Mince </small>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="nn row">
+                    <div class=" col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Adibatla</li>
+                            <li>Adilabad</li>
+                            <li>Adoni</li>
+                            <li>Ahmednagar</li>
+                            <li>Bhimavaram</li>
+                            <li>Bhiwadi</li>
+                            <li>Bidadi</li>
+                            <li>Chandigarh</li>
+                            <li>Changanassery</li>
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

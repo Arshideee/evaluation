@@ -1,0 +1,182 @@
+.header-1{
+background-color: #292961;
+}
+.d-flex{
+    display: flex;
+}
+.j-content{
+    justify-content: space-between;
+}
+.header-1-col1{
+    margin-top: 8px;
+}
+.header-1-col1 ul{
+    list-style: none;
+    padding-bottom: 0px;
+    
+}
+.header-1-col1 ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 13px;
+    color: white;
+}
+.header-1-col1 ul li a{
+    text-decoration: none;
+    background-color:blue;
+    border-radius: 10px;
+    color: black;
+padding: 5px;
+color: white;
+}
+.header-1-col2{
+    margin-top: 8px;
+}
+.header-1-col2 ul{
+    list-style: none;
+
+    
+}
+.header-1-col2 ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 13px;
+    color: white;
+}
+.header-1-col2 ul li a svg{
+    color: white;
+    width: 15px;
+}
+
+.caros{
+    position: relative;
+}
+.caros-text1{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+.caros-text11 h1{
+    color: white;
+}
+.caros-text12 {
+    color: rgb(94, 92, 92);
+}
+.caros-text13 a{
+text-decoration: none;
+background-color: rgb(3, 3, 46);
+color: white;
+padding: 10px;
+border-radius: 18px;
+}
+.caros-text13 a:hover{
+    background-color: rgb(109, 51, 143);
+}
+.area1{
+    background-image: url(https://apexinternationalschool.org/img/bg/bulb.jpg);
+}
+
+.sclname{
+    color: brown;
+    font-size: larger;
+    font-weight: 600;
+}
+.sclname2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(8, 8, 206);
+}
+.sectionbottom{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #28285f;
+    border-radius: 25%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+.area2{
+    background-image: url(https://apexinternationalschool.org/img/bg/doodle.jpg);
+
+}
+.area2-row1-scl{
+    color: brown;
+    font-size: medium;
+    font-weight: 600;
+   
+}
+.area2-row1-2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(8, 8, 206);
+}
+.area2-row2{
+    justify-content: center;
+    margin-top: 20px;
+}
+.area3{
+    background-image: url(https://apexinternationalschool.org/img/bg/doodle.jpg);
+
+}
+.area3-row1 p{
+    font-size: 30px;
+    font-weight: bold;  
+}
+.area4-row1 span{
+    color: brown;
+    font-size: medium;
+    font-weight: 600;
+}
+.area4-row1 p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.area4-row1{
+    text-align: center;
+}
+.area5-row{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ftr{
+    background-color: rgb(24, 24, 134);
+}
+.ftr h3{
+    color: white;
+}
+.ftr h3::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #28285f;
+    margin-top: 12px;
+}
+.ftr ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  
+}
+.ftr ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.ftr ul li{
+    padding: 5px 0px;
+    display: flex;
+}
+.ftr ul li svg{
+margin-top: 5px;
+padding-right: 5px;
+color: rgb(180, 162, 162);
+}
+.spp{
+    color: white;
+    padding-bottom: 10px;
+}

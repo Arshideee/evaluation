@@ -1,0 +1,129 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.aaa{
+width: 100%;
+background-color: rgb(50, 64, 77);
+}
+
+.bg-1{
+    background: transparent;
+}
+.nav-aaa a{
+    color: white;
+}
+.hed {
+  height: 60vh;
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+ 
+}
+
+
+
+.hed h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.area1-main{
+    background-color: #f7f7f7;
+}
+.area1 {
+  padding: 50px 16px;
+ width: 70%;
+  text-align: center;
+  color: #333;
+  line-height: 40px;
+}
+
+.area1 h2{
+  font-size: 52px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.area1 p{
+  font-size: 20px;
+  color: blue;
+  font-weight: 600;
+  
+}
+
+.difference {
+  padding: 48px 16px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/6624d7a94a27f069fce4b4b8/a91b67a9-e0f3-431c-8622-a991d24413d3/2.jpg);
+  text-align: center;
+}
+
+.difference h2 {
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+}
+.difference p{
+    font-size: 20px;
+  color: white;
+  font-weight: 600; 
+}
+.area3-img img{
+  width: 100%;
+  height: 40%;
+  
+}
+.area3-img{
+  margin: 0px;
+  padding: 0px;
+} 
+.area3-txt{
+  position: absolute;
+  top: 170px;
+  left: 50px;
+
+}
+.text1-area3{
+  font-weight: bolder;
+  font-size: 60px;
+  color: white;
+}
+.area3-a a{
+  color: white;
+text-decoration: none;
+  background-color: rgb(25, 25, 141);
+  padding: 20px 60px;
+  font-size: x-large;
+}
+
+  
+
+.area3{
+  position: relative;
+}
+.area4{
+background-color: #000;
+color: white;
+font-weight: 600;
+padding: 50px;
+text-align: center;
+}
+.f-logo img{
+  width: 120px;
+}
+.f-svg svg{
+  color: black;
+  
+}
+.f-a a{
+  color: white;
+  text-decoration: none;
+    background-color: rgb(17, 17, 105);
+    padding: 10px 50px;
+}
